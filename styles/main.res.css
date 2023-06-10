@@ -1,0 +1,149 @@
+@media (min-width: 576px) {
+  /*!-------------- common styles ------------ */
+  .container {
+  }
+  /* section  */
+  .section {
+    text-align: start;
+    padding-block: 5rem;
+    margin-block: 10rem;
+  }
+  .section-img-content {
+    max-width: 100%;
+    padding-inline: 0.875rem;
+    flex-basis: 50%;
+  }
+  .section-img {
+    width: 100%;
+  }
+  .section-text-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    text-align: start;
+    flex-basis: 50%;
+  }
+  .section-text-content * {
+    margin: 0;
+  }
+  .section-title {
+    font-size: 2.75em;
+    font-weight: 700;
+  }
+  .section-text {
+    font-size: 1.05em;
+  }
+  /* backgrounds  */
+  .grow-together-bg-top-desk,
+  .your-users-bg-top-desk,
+  .footer-bg-top-desk {
+    display: inline-block;
+    position: absolute;
+    width: 100%;
+    bottom: 100%;
+  }
+  .grow-together-bg-bottom-desk,
+  .your-users-bg-bottom-desk {
+    display: inline-block;
+    position: absolute;
+    width: 100%;
+    top: 100%;
+  }
+  .grow-together-bg-top-mob,
+  .grow-together-bg-bottom-mob,
+  .your-users-bg-top-mob,
+  .your-users-bg-bottom-mob,
+  .footer-bg-top-mob {
+    display: none;
+  }
+
+  /*!------------ utilities --------------- */
+  /* header  */
+  .header {
+    margin-top: 5rem;
+    padding-inline: 4.375rem;
+  }
+  .logo {
+    width: 14.875rem;
+  }
+  .nav-btn {
+    padding: 0.875rem 1.875rem;
+    font-size: 1.2em;
+  }
+  /* hero section  */
+  .hero-title {
+    font-size: 3.05em;
+  }
+  .hero-text {
+    font-size: 1.2em;
+    width: 36.625rem;
+    max-width: 100%;
+    line-height: 1.7;
+  }
+  .hero-btn {
+    font-size: 1.2em;
+    padding: 1.5rem 6.125rem;
+  }
+  .hero-img {
+    width: 63rem;
+    max-width: 100%;
+    margin-top: 6.5625rem;
+  }
+  /* hero counter  */
+  .hero-counter {
+    width: 100%;
+    max-width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .communities {
+    flex-direction: column;
+  }
+  .counter-icon {
+    width: 2.875rem;
+  }
+  .count-number {
+    font-size: 5.9em;
+    font-weight: 700;
+    margin: 0;
+  }
+  .counter-text {
+    font-size: 1.4em;
+  }
+
+  /* grow-together */
+  .grow-together-content,
+  .your-users-content {
+    flex-direction: row;
+    position: relative;
+  }
+
+  /* flowing-conversations */
+  .flowing-conversations {
+    flex-direction: row-reverse;
+  }
+  /* community build section */
+  .community-build-section {
+    padding-block: 11.25rem;
+    margin-block: 10rem;
+  }
+  /* footer  */
+  .footer-text-content {
+    flex-direction: row;
+  }
+  .footer-text {
+    width: 60%;
+  }
+  .footer-subscribe {
+    display: flex;
+    flex-direction: row;
+    gap: 2.5rem;
+  }
+  .footer-input {
+    width: 60%;
+    flex-basis: 70%;
+  }
+  .footer-btn {
+    flex-basis: 30%;
+  }
+}
